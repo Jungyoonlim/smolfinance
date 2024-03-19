@@ -1,0 +1,32 @@
+{
+  "name": "personal-finance-dashboard",
+  "version": "1.0.0",
+  "description": "Personal Finance Dashboard App",
+  "main": "server/index.ts",
+  "scripts": {
+    "start": "bun run server/index.ts",
+    "dev": "bun i && bun --watch server/index.ts"
+  },
+  "dependencies": {
+    "@types/express": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@types/react-router-dom": "latest",
+    "@types/socket.io": "latest",
+    "@types/socket.io-client": "latest",
+    "better-sqlite3": "^9.4.3",
+    "bun": "latest",
+    "cookie-parser": "latest",
+    "esbuild": "latest",
+    "express": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "latest",
+    "socket.io": "latest",
+    "socket.io-client": "latest"
+  },
+  "devDependencies": {
+    "typescript": "latest",
+    "@types/node": "latest"
+  }
+}
